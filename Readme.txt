@@ -6,6 +6,6 @@
 2.  To test the trained model use "test.py" as:
     python test.py --model_name model1 --epoch 40
     
-3.  The results are displayed on terminal. The accuracy and loss are automatically stored inside checkpoints/model_name/ as csv. 
+3.  The results are displayed on terminal. The accuracy and loss are automatically stored inside checkpoints/model_name/.. as csv. 
 
 4.  Report.pdf contains the required experiments and results. 
