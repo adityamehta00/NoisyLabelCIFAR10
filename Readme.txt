@@ -1,6 +1,7 @@
 1.  The Training script is under "noisy_label_analysis.py"
     To use the training script use on terminal : python noisy_label_analysis.py --model_name model1 --alpha 0.1 --beta 0.6  --gpu-id 1 --epochs 120
     [NOTE other Hyperparameters are set to default. You can chage them by passing arguments in above command. Please refer the "noisy_label_analysis.py" to see the arguments]
+    [Create a folder 'data' and paste CIFAR-10 data in it]
   
 2.  To test the trained model use "test.py" as:
     python test.py --model_name model1 --epoch 40
